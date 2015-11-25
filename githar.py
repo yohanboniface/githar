@@ -7,9 +7,9 @@ Usage:
 Options:
   -h --help             Show this screen.
   --author=<name>       Name of the author to filter commits.
-  --since=<date>        Only commits after this date (format: YYYY-MM-DD)
-  --until=<date>        Only commits before this date (format: YYYY-MM-DD)
-  --format=<format>     Format to use for output ('text', 'amarkdown')
+  --since=<date>        Only commits since this date (format: YYYY-MM-DD)
+  --until=<date>        Only commits until this date (format: YYYY-MM-DD)
+  --format=<format>     Format to use for output ('text', 'markdown')
 """
 
 from docopt import docopt
